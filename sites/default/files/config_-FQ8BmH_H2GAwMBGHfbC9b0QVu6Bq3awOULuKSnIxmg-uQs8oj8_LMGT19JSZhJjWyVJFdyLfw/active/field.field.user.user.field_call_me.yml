@@ -1,0 +1,20 @@
+uuid: 2c2428ba-f9fc-47eb-ba00-ba3a928b6f41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_call_me
+  module:
+    - telephone
+id: user.user.field_call_me
+field_name: field_call_me
+entity_type: user
+bundle: user
+label: 'Call Me'
+description: 'Employee contact number'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

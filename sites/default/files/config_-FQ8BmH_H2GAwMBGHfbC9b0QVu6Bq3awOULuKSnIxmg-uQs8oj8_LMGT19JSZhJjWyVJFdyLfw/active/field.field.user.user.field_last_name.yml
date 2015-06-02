@@ -1,0 +1,20 @@
+uuid: c0dd8b9b-55e5-4341-b608-8d26b1cdacb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_last_name
+id: user.user.field_last_name
+field_name: field_last_name
+entity_type: user
+bundle: user
+label: 'Last Name'
+description: 'Employee Last name'
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,9 @@
+uuid: 1a3f168a-1632-4b73-a807-7a29b078fcdc
+langcode: en
+status: true
+dependencies: {  }
+name: Skills
+vid: tags
+description: 'Employee skill set'
+hierarchy: 0
+weight: 0

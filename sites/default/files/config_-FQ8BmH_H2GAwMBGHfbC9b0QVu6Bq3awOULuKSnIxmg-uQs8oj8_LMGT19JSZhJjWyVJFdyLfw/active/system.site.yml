@@ -1,0 +1,13 @@
+uuid: 4de4e2ef-aafa-455f-9f00-d1caf6e6f524
+name: 'Kuch bhi HR system'
+mail: ashwini.kumar@srijan.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+mail_notification: ''

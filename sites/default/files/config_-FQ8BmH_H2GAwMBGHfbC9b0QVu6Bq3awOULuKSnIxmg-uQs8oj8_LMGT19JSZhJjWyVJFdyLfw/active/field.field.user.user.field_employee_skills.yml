@@ -1,0 +1,27 @@
+uuid: 884ce318-daf4-47be-8f45-69008a742860
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_employee_skills
+  module:
+    - entity_reference
+id: user.user.field_employee_skills
+field_name: field_employee_skills
+entity_type: user
+bundle: user
+label: 'Employee Skills'
+description: 'This field contains employee skills'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+    auto_create: true
+field_type: entity_reference

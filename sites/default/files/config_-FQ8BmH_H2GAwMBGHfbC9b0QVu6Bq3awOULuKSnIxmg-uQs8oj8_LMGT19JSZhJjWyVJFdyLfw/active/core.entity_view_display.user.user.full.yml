@@ -1,0 +1,104 @@
+uuid: 43c7fbb4-2496-41e6-8a00-f75613c5bbda
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.full
+    - field.field.user.user.field_call_me
+    - field.field.user.user.field_designation
+    - field.field.user.user.field_email_id
+    - field.field.user.user.field_employee_skills
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_hobby_and_interest
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_personal_information
+    - field.field.user.user.field_worked_for_company
+    - field.field.user.user.field_year
+    - field.field.user.user.user_picture
+  module:
+    - datetime
+    - image
+    - user
+id: user.user.full
+targetEntityType: user
+bundle: user
+mode: full
+content:
+  field_call_me:
+    type: string
+    weight: 13
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: inline
+  field_designation:
+    type: string
+    weight: 14
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: inline
+  field_email_id:
+    type: basic_string
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    label: inline
+  field_employee_skills:
+    type: entity_reference_label
+    weight: 8
+    settings:
+      link: true
+    third_party_settings: {  }
+    label: inline
+  field_first_name:
+    type: string
+    weight: 6
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: inline
+  field_hobby_and_interest:
+    type: entity_reference_label
+    weight: 15
+    settings:
+      link: true
+    third_party_settings: {  }
+    label: inline
+  field_last_name:
+    type: string
+    weight: 7
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: inline
+  field_personal_information:
+    type: basic_string
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    label: inline
+  field_worked_for_company:
+    type: string
+    weight: 10
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: inline
+  field_year:
+    type: datetime_default
+    weight: 9
+    settings:
+      format_type: medium
+    third_party_settings: {  }
+    label: inline
+  user_picture:
+    type: image
+    weight: 0
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  member_for: true

@@ -1,0 +1,9 @@
+uuid: 86173a90-a966-490d-9100-e1ee74fe4a84
+langcode: en
+status: true
+dependencies: {  }
+name: 'Hobby and Interest'
+vid: hobby_and_interest
+description: 'Employee Hobby and Interest'
+hierarchy: 0
+weight: 0

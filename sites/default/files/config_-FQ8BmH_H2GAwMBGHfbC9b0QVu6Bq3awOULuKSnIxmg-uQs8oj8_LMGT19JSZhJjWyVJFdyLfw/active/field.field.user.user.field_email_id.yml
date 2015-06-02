@@ -1,0 +1,18 @@
+uuid: 6f0b9ef5-8ba7-4545-ad00-dd2872469097
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_email_id
+id: user.user.field_email_id
+field_name: field_email_id
+entity_type: user
+bundle: user
+label: Email-ID
+description: 'Employee email id'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

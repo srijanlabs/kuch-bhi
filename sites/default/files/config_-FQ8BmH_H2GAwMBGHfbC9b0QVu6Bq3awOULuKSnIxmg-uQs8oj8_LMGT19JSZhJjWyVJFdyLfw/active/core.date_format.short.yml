@@ -1,0 +1,8 @@
+uuid: 3ce73c6c-f059-45bd-8239-5735cb17a6d2
+langcode: en
+status: true
+dependencies: {  }
+id: short
+label: 'Default short date'
+locked: false
+pattern: 'm/d/Y - H:i'

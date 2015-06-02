@@ -1,0 +1,22 @@
+uuid: 381df451-8d07-4857-b200-bf32f48c6f76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_worked_for_company
+id: user.user.field_worked_for_company
+field_name: field_worked_for_company
+entity_type: user
+bundle: user
+label: 'Worked For Company'
+description: 'Employee Worked for company'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

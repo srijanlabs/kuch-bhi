@@ -1,0 +1,20 @@
+uuid: 7450a368-b898-4292-ae29-41b5d17fc1b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_designation
+id: user.user.field_designation
+field_name: field_designation
+entity_type: user
+bundle: user
+label: Designation
+description: 'Employee Designation'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

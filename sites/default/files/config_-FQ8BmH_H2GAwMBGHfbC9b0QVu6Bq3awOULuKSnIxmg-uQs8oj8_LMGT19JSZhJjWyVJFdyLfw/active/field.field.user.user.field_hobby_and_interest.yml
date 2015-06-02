@@ -1,0 +1,27 @@
+uuid: 43d4b097-6160-4de4-bf05-5f959c1307b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_hobby_and_interest
+  module:
+    - entity_reference
+id: user.user.field_hobby_and_interest
+field_name: field_hobby_and_interest
+entity_type: user
+bundle: user
+label: 'Hobby and Interest'
+description: 'Employee Hobbies and Interests'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      hobby_and_interest: hobby_and_interest
+    sort:
+      field: _none
+    auto_create: true
+field_type: entity_reference

@@ -1,0 +1,18 @@
+uuid: 944b1471-d511-4064-960d-13b2f985d479
+langcode: en
+status: true
+dependencies:
+  module:
+    - telephone
+    - user
+id: user.field_call_me
+field_name: field_call_me
+entity_type: user
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

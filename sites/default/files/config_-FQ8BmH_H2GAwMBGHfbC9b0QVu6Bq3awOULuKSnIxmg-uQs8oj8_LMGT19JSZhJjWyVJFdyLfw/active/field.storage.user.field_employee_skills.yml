@@ -1,0 +1,19 @@
+uuid: 1e543471-ba23-4502-8e00-dcb48f6318f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference
+    - user
+id: user.field_employee_skills
+field_name: field_employee_skills
+entity_type: user
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: entity_reference
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

@@ -1,0 +1,20 @@
+uuid: dd727727-12e0-407b-af0e-148b6c582e1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_year
+  module:
+    - datetime
+id: user.user.field_year
+field_name: field_year
+entity_type: user
+bundle: user
+label: Year
+description: 'Working year'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

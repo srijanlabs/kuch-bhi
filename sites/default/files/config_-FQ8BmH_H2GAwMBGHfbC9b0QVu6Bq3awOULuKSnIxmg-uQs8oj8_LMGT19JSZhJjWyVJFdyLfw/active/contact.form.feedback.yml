@@ -1,0 +1,10 @@
+uuid: 637a3929-b013-4842-8c01-1b9a0ddb1b41
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - ashwini.kumar@srijan.com
+reply: ''
+weight: 0

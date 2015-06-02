@@ -1,0 +1,19 @@
+uuid: 0d469717-9f7b-4255-8100-e44d6d9607b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference
+    - user
+id: user.field_hobby_and_interest
+field_name: field_hobby_and_interest
+entity_type: user
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: entity_reference
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
