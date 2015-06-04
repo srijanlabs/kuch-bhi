@@ -1,0 +1,18 @@
+d8hr.mobile:
+  label: mobile
+  mediaQuery: '(min-width: 0px)'
+  weight: 2
+  multipliers:
+   - 1x
+d8hr.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 600px) and (max-width: 980px)'
+  weight: 1
+  multipliers:
+    - 1x
+d8hr.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 981px)'
+  weight: 0
+  multipliers:
+    - 1x
