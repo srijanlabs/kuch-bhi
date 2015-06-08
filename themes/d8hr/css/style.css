@@ -142,6 +142,10 @@ summary {
   border: 2px solid #666;
 }
 
+.view-id-employee_details h1, .view-id-employee_details h2, .view-id-employee_details h3 {
+  font-family: monospace;
+}
+
 .view-id-employee_details .views-field {
   float: left;
   width: 50%;

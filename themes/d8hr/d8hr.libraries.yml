@@ -1,4 +1,5 @@
 global-styling:
   css:
     base:
+      css/srijan-base.css: {}
       css/style.css: {}
